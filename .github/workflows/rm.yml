@@ -14,7 +14,7 @@ jobs:
         with:
           # NOTE: at now only orgs is supported
           owner: morpht
-          name: ci-php-8
+          name: ci-php-8.0
           # NOTE: using Personal Access Token
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: deletetest
